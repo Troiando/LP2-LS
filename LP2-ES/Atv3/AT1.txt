@@ -1,0 +1,14 @@
+Quando uma classe é chamada de thread-safe ou sincronizada,
+significa que ele é projetado e implementado para
+Permitir que vários threads acessem simultaneamente
+enquanto não houver inconsistências
+ou acesso impróprio a dados compartilhados.
+Em outras palavras, uma classe thread-safe garante que seu
+métodos podem ser chamados simultaneamente
+Multithreading sem condições de corrida ou ocorrência de bugs de simultaneidade.
+Usando classes thread-safe como a classe Vector em Java, os programadores
+Não precisa se preocupar em proteger o acesso simultâneo aos dados
+compartilhado, pois a classe já fornece
+Sincronização interna. No entanto, é importante
+Observe que a sincronização pode ter um impacto significativo no desempenho,
+Porque os métodos síncronos tornam o programa mais lento.
